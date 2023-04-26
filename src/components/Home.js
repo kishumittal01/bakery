@@ -1,4 +1,5 @@
 import React from 'react'
+import img1 from "./img1.jpg"
 
 function Home() {
   return (
@@ -11,13 +12,13 @@ function Home() {
                 </div>
                 <div className="carousel-inner">
                     <div className="carousel-item active">
-                    <img src="..." className="d-block w-100" alt="..." />
+                    <img src={img1} className="d-block w-100" alt="..." style={{width: "40vw", height: "70vh"}} />
                     </div>
                     <div className="carousel-item">
-                    <img src="..." className="d-block w-100" alt="..." />
+                    <img src={img1} className="d-block w-100" alt="..." style={{width: "40vw", height: "70vh"}} />
                     </div>
                     <div className="carousel-item">
-                    <img src="..." className="d-block w-100" alt="..." />
+                    <img src={img1} className="d-block w-100" alt="..." style={{width: "40vw", height: "70vh"}} />
                     </div>
                 </div>
                 <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">

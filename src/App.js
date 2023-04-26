@@ -12,6 +12,7 @@ function App() {
     <div className="App">
       <Header />
       <Home/>
+      
       <About />
       <Menu />
       <Contact />

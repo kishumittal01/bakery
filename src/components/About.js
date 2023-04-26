@@ -2,7 +2,7 @@ import React from 'react'
 
 function About() {
   return (
-    <div>
+    <div style={{padding: "4%"}}>
         <div className="container text-center">
             <div className="row">
                 <div className="col">
